@@ -132,7 +132,6 @@ nav li a:hover::after {
 }
 .sub-tab {
   display: inline-flex;
-  flex-direction: column;
   justify-content: space-around;
   margin-top: 1.4rem;
 }
@@ -182,6 +181,13 @@ nav li a:hover::after {
 .subtitle-info p {
   font-size: 13px;
   margin-bottom: 0.6rem;
+  text-align: left;
+}
+.subtitle-info .certificate {
+  font-size: 12px;
+}
+.subtitle-info a {
+  margin-left: 0.3rem;
 }
 .sub-title-content {
   display: none;
