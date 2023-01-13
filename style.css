@@ -118,7 +118,13 @@ nav li a:hover::after {
 }
 .about-col-2 h1 {
   font-size: 30px;
-  /* margin-bottom: 0.5rem; */
+}
+.about-col-2 p {
+  width: fit-content;
+  text-align: justify;
+  display: flex;
+  font-size: 13px;
+  justify-self: center;
 }
 .sub-title {
   display: flex;
@@ -164,7 +170,7 @@ nav li a:hover::after {
   transition: 0.5s;
 }
 .subtitle-info {
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 .subtitle-info h3 {
   font-size: 16px;
@@ -173,7 +179,7 @@ nav li a:hover::after {
   color: rgb(255, 8, 49);
 }
 .subtitle-info p {
-  font-size: 14px;
+  font-size: 13px;
   margin-bottom: 0.6rem;
 }
 .sub-title-content {
