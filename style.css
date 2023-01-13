@@ -122,8 +122,8 @@ nav li a:hover::after {
 }
 .sub-tab {
   display: inline-flex;
+  justify-content: space-around;
   margin-top: 1.4rem;
-  gap: 2rem;
 }
 .tab-links {
   font-size: 18px;
