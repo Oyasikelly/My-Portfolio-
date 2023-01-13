@@ -475,7 +475,7 @@ nav li a:hover::after {
     display: block;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 15px;
+    font-size: 20px;
     /* justify-content: baseline;
     align-items: baseline; */
   }
