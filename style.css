@@ -475,11 +475,13 @@ nav li a:hover::after {
     display: block;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 25px;
     /* justify-content: baseline;
     align-items: baseline; */
   }
-
+  .homeParagraph span {
+    font-weight: 500;
+  }
   #About .row {
     display: flex;
     flex-direction: column;
