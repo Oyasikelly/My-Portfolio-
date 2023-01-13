@@ -87,7 +87,9 @@ nav li a:hover::after {
 .homeParagraph p {
   font-size: 20px;
 }
-
+.homeParagraph span {
+  font-weight: 700;
+}
 .Name,
 .hireMe {
   color: rgba(248, 10, 10, 0.753);
@@ -479,9 +481,7 @@ nav li a:hover::after {
     /* justify-content: baseline;
     align-items: baseline; */
   }
-  .homeParagraph span {
-    font-weight: 700;
-  }
+
   #About .row {
     display: flex;
     flex-direction: column;
