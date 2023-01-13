@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 
 const tabLinks = document.getElementsByClassName("tab-links");
 const tabContents = document.getElementsByClassName("sub-title-content");

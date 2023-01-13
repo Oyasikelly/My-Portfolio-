@@ -116,6 +116,10 @@ nav li a:hover::after {
 .about-col-2 h1 {
   margin-bottom: 0.5rem;
 }
+.sub-title {
+  display: flex;
+  flex-direction: column;
+}
 .sub-tab {
   display: inline-flex;
   margin-top: 1.4rem;
