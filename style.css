@@ -82,13 +82,12 @@ nav li a:hover::after {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  font-size: 30px;
 }
 .homeParagraph p {
   font-size: 20px;
 }
-.homeParagraph h3 {
-  font-size: 30px;
-}
+
 .Name,
 .hireMe {
   color: rgba(248, 10, 10, 0.753);
@@ -399,6 +398,12 @@ nav li a:hover::after {
     justify-content: space-between;
     align-items: center;
   }
+  header img {
+    width: 300px;
+    position: relative;
+    left: -3.5rem;
+    overflow: hidden;
+  }
   nav {
     display: none;
     justify-content: center;
@@ -424,7 +429,7 @@ nav li a:hover::after {
   .menueTab {
     width: 20px;
     height: 25px;
-    margin-right: 3rem;
+    margin-right: 1.5rem;
   }
   .menueTab div {
     border: 1px solid white;
@@ -456,12 +461,24 @@ nav li a:hover::after {
     transform: skewY(-45deg);
   }
 
+  .homeParagraph {
+    height: fit-content;
+    position: relative;
+    left: 0rem;
+    top: -3rem;
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: baseline;
+    align-items: baseline; */
+  }
+
   #About .row {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 90%;
-    padding-left: 2rem;
+    padding-left: 1.2rem;
   }
   #About .row img {
     width: 90%;
