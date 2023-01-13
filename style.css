@@ -40,7 +40,7 @@ nav li {
 nav a {
   text-decoration: none;
   margin: 0 1rem;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.846);
   font-weight: 400;
   position: relative;
 }
@@ -96,6 +96,7 @@ nav li a:hover::after {
 /* <-------------About--------------> */
 #About {
   padding-bottom: 0rem;
+  opacity: 0.8;
 }
 .row {
   display: flex;
@@ -114,7 +115,8 @@ nav li a:hover::after {
   flex-basis: 60%;
 }
 .about-col-2 h1 {
-  margin-bottom: 0.5rem;
+  font-size: 30px;
+  /* margin-bottom: 0.5rem; */
 }
 .sub-title {
   display: flex;
@@ -473,6 +475,7 @@ nav li a:hover::after {
     display: block;
     flex-direction: column;
     flex-wrap: wrap;
+    font-size: 15px;
     /* justify-content: baseline;
     align-items: baseline; */
   }
