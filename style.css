@@ -69,6 +69,7 @@ nav li a:hover::after {
     url(/Images/background-Img1.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
   justify-content: center;
   align-items: center;
 }
