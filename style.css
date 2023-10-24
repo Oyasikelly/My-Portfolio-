@@ -9,6 +9,8 @@ body {
   background-color: #000;
   color: #fff;
   font-family: "poppins", sans-serif;
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
 }
 .container {
   width: 100%;
